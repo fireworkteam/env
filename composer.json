@@ -1,0 +1,20 @@
+{
+    "name": "fireworkteam/env",
+    "description": "A part of Firework, that controls env settings",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Firework\\Env\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "fireworkteam",
+            "email": "svintsoff.ya@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
