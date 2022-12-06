@@ -8,7 +8,7 @@ class Env
 
     public function __construct()
     {
-        $env = file_get_contents(__DIR__ . "/../.env");
+        $env = file_get_contents(__DIR__ . "/../../../../.env");
         $env = explode("\n", $env);
 
         foreach ($env as $item) {
